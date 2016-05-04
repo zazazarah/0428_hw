@@ -1,0 +1,43 @@
+.changing-divs {
+    border:#000 1px solid;
+    width:100%;
+    height:300px;
+}
+
+.margin-top-20 {
+    margin-top:20px;
+}
+
+
+.big-red {
+	width: 105%;
+	height:350px;
+	background-color: #d9534f;
+}
+
+.small-green {
+	width: 50%;
+	height: 150px;
+	background-color: #5cb85c;
+}
+
+.animate-box {
+	background-color: #337ab7;
+	-webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.animate-box:hover {
+	width: 50%;
+	height: 150px;
+	-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-color: #e3bb23;
+
+}
+
+.overlay-box {
+	width: 500px !important;
+	height: 500px !important;
+	background-color: #000;
+}
