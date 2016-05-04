@@ -16,15 +16,15 @@ $(document).ready(function() {
 		$("#blue-box")
 		.css("background-color", "#337ab7");
 	});
-
+// make box bigger 
 $(document).on("click", "#make-big", function() {
 		$("#add-big-red").toggleClass("big-red");
 	});
-
+// make box smaller
 $(document).on("click", "#make-small", function() {
 		$("#add-small-green").toggleClass("small-green");
 	});
-
+// animate box
 $(document).on("click", "#animate-div", function() {
 		$("#add-animation").addClass("animate-box");
 	});
